@@ -92,13 +92,13 @@ article > .h1article{
     background-image: linear-gradient(to right , var(--color0), transparent);
     text-align: justify ;
 }
-picture > .imagem{
+.imagem{
    display: block;
    margin-left: auto;
    margin-right: auto;
    height: auto;
 }
-article > .imagem2{
+ .imagem2{
     display: block;
     margin-left: auto;
     margin-right: auto;
