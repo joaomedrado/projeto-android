@@ -85,7 +85,7 @@ article{
     margin-right: auto;
 }
 article > .paragrafo{
-    text-align: justify;
+   
     text-indent: 10px;
 }
 article > .h1article{
@@ -128,11 +128,11 @@ article > .h1article{
 /*CONFIGURAÇÕES ASIDE*/
 aside{
     display: block;
-    width: 95%;
+    width: 97.5%;
     height: 100%;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: -10px;
     background-color: var(--color1);
     color: black;
     border-radius: 10px;
