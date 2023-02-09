@@ -26,6 +26,7 @@ body{
 div{
     background-color: var(--color3);
     margin: 0px;
+    
  
 }
 
@@ -33,6 +34,7 @@ div{
 header{
     background-image: linear-gradient(to top , var(--color5) , var(--color3));
     padding: 10px;
+    margin: 0px;
 }
 header > #h1principal{
     font-family: var(--fonte-destaque);
@@ -77,7 +79,7 @@ article{
     background-color: white;
     padding: 10px;
     display: block;
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -105,7 +107,9 @@ article > .h1article{
 }
 .video{
     background-color: var(--color4);
-    margin: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.29);
     position: relative;
@@ -124,10 +128,11 @@ article > .h1article{
 /*CONFIGURAÇÕES ASIDE*/
 aside{
     display: block;
-    width: 95%;
+    width: 97.5%;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: var(--color1);
     color: black;
     border-radius: 10px;
@@ -148,7 +153,7 @@ aside >ul{
 
 /*CONFIGURAÇÕES RODAPÉ*/
 
-footer{
+div > footer{
     background-color: var(--color5);
     color: white;
     text-align: center;
