@@ -105,11 +105,11 @@ article > .h1article{
 }
 .video{
     background-color: var(--color4);
-    margin: 50px;
+    margin: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.29);
     position: relative;
-    padding: 20%;
+    padding: 25%;
 }
 .video> iframe{
     display: block;
@@ -123,9 +123,13 @@ article > .h1article{
 
 /*CONFIGURAÇÕES ASIDE*/
 aside{
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--color1);
     color: black;
-    margin: 50px;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
