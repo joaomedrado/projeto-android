@@ -128,11 +128,11 @@ article > .h1article{
 /*CONFIGURAÇÕES ASIDE*/
 aside{
     display: block;
-    width: 97.5%;
+    width: 95%;
     height: 100%;
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--color1);
     color: black;
     border-radius: 10px;
